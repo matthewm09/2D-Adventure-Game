@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60622
+61802
 Successfully changed project path to: /Users/game12/2D Adventure Game
 /Users/game12/2D Adventure Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 91.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game12/2D Adventure Game/Assets
 GfxDevice: creating device client; threaded=0
-2024-10-10 08:47:55.239 Unity[14406:27463069] iMac preferred device: AMD Radeon Pro 5300 (high power)
-2024-10-10 08:47:55.239 Unity[14406:27463069] Metal devices available: 1
-2024-10-10 08:47:55.239 Unity[14406:27463069] 0: AMD Radeon Pro 5300 (high power)
-2024-10-10 08:47:55.239 Unity[14406:27463069] Using device AMD Radeon Pro 5300 (high power)
+2024-10-11 08:28:48.706 Unity[34730:29475709] iMac preferred device: AMD Radeon Pro 5300 (high power)
+2024-10-11 08:28:48.707 Unity[34730:29475709] Metal devices available: 1
+2024-10-11 08:28:48.707 Unity[34730:29475709] 0: AMD Radeon Pro 5300 (high power)
+2024-10-11 08:28:48.707 Unity[34730:29475709] Using device AMD Radeon Pro 5300 (high power)
 Initializing Metal device caps: AMD Radeon Pro 5300
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56406
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56730
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000490 seconds.
+Registered in 0.001407 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 46.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.597 seconds
+- Completed reload, in  0.686 seconds
 Domain Reload Profiling:
-	ReloadAssembly (597ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (89ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (477ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (173ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (188ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (47ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003737 seconds.
+Registered in 0.004748 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 46.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 49.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.186 seconds
+- Completed reload, in  1.673 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1187ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1688ms)
+		BeginReloadAssembly (203ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (984ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1393ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (355ms)
+			SetupTypeCache (649ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (371ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (394ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.003144 seconds.
+Validating Project structure ... 0.003032 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.003201 seconds.
+Upgrading shader files ...0.003497 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 229.7 MB.
 System memory in use after: 229.0 MB.
 
-Unloading 116 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 3.211032 ms (FindLiveObjects: 0.184270 ms CreateObjectMapping: 0.083049 ms MarkObjects: 2.522895 ms  DeleteObjects: 0.420205 ms)
+Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 3011.
+Total: 3.353949 ms (FindLiveObjects: 0.201210 ms CreateObjectMapping: 0.092036 ms MarkObjects: 2.621954 ms  DeleteObjects: 0.437876 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,241 +150,233 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UnityTechnologies/StarterAsset/Animation/Ruby/Player.controller
-  artifactKey: Guid(b77822e0485373d40b5beb92e9a5e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Animation/Ruby/Player.controller using Guid(b77822e0485373d40b5beb92e9a5e728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e785e0f6068a549d9de1b8d2b4b65a') in 1.018328 seconds 
-  Import took 1.025955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Animation/Ruby/Player
-  artifactKey: Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Animation/Ruby/Player using Guid(f3cc884ead1a9b844804335eddacc621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb776d3f7d9e90f0f5b340e88a4035cb') in 0.001289 seconds 
-  Import took 0.005639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.517350 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/UI/CharacterPortrait.png
-  artifactKey: Guid(e8af26c6841fc05459ccaf23dbab2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/UI/CharacterPortrait.png using Guid(e8af26c6841fc05459ccaf23dbab2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d505c4d4f96b5b9ca430c7370d138a') in 0.822373 seconds 
-  Import took 0.830386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/VFX/CollectibleHealth.png
-  artifactKey: Guid(f33a6baa82ace5d4e8ad83d3f91913d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/VFX/CollectibleHealth.png using Guid(f33a6baa82ace5d4e8ad83d3f91913d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55db8d2be9ee6cf5c10bc475a834f92c') in 0.014521 seconds 
-  Import took 0.017944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_2.png
-  artifactKey: Guid(45130b74f6f00be4ba1b0a5b37d7e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_2.png using Guid(45130b74f6f00be4ba1b0a5b37d7e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea94cc1b9f882daeb2b36462aa38aa37') in 0.012915 seconds 
-  Import took 0.016380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_7.png
-  artifactKey: Guid(7016235154b558546b1445d5224e9688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_7.png using Guid(7016235154b558546b1445d5224e9688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f159f3deebc6819868d82c4fec82c9c') in 0.011942 seconds 
-  Import took 0.015552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_3.png
-  artifactKey: Guid(7eacbad3a4a7642409aa97cccf8ca843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_3.png using Guid(7eacbad3a4a7642409aa97cccf8ca843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abafb5d5622b6e301d880ef1c14557f') in 0.016625 seconds 
-  Import took 0.020013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_8.png
-  artifactKey: Guid(01aa7f9f03864f345a61f91a19f56428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_8.png using Guid(01aa7f9f03864f345a61f91a19f56428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115c62d721d157bafac1689c9b1ebda5') in 0.012354 seconds 
-  Import took 0.015974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/CharacterPortrait.png
-  artifactKey: Guid(374193bc7008fa34ab9b2bbca376937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/CharacterPortrait.png using Guid(374193bc7008fa34ab9b2bbca376937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b201f42fb581e6b7f478ab8aa802c1b0') in 0.015162 seconds 
-  Import took 0.018918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/DamageZone.png
-  artifactKey: Guid(3325234d9883550489ddb29f3e66f9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/DamageZone.png using Guid(3325234d9883550489ddb29f3e66f9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c2d53acc5d42ee9469cb68d0148b87') in 0.013599 seconds 
-  Import took 0.018033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_5.png
-  artifactKey: Guid(66968c77a5567324387f9ff6a5d241bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_5.png using Guid(66968c77a5567324387f9ff6a5d241bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a15de8f9cf075dae5bbbcc40d0c448') in 0.013391 seconds 
-  Import took 0.017785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_1.png
-  artifactKey: Guid(f5e853af8656e25428b72c63612959c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_1.png using Guid(f5e853af8656e25428b72c63612959c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824d5b2e89dc892a6cef0b6ed08d901e') in 0.012210 seconds 
-  Import took 0.015834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_5.mat
-  artifactKey: Guid(c387c5e5eb54b4389a72e57f67e2b2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_5.mat using Guid(c387c5e5eb54b4389a72e57f67e2b2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537cc76097f780125eaebd62e2f1e179') in 0.298414 seconds 
-  Import took 0.304608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_8.mat
-  artifactKey: Guid(ecace99d90df942d18a48919e9c9a21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_8.mat using Guid(ecace99d90df942d18a48919e9c9a21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3f028c3f187024179aa092cdcfef9e') in 0.010369 seconds 
-  Import took 0.015524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/CollectibleHealth.png
-  artifactKey: Guid(9d3ab281567f94c4b84d23954c7d5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/CollectibleHealth.png using Guid(9d3ab281567f94c4b84d23954c7d5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6122b1d3a2682f7e49721b25748969') in 0.015575 seconds 
-  Import took 0.022938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Characters/Enemy.png
-  artifactKey: Guid(b0ac58a254361ce469cab127f982a84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Characters/Enemy.png using Guid(b0ac58a254361ce469cab127f982a84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd069d09ad7abd906d4d1fbb7f8bed9a8') in 0.014854 seconds 
-  Import took 0.020708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_4.png
-  artifactKey: Guid(23d8df0218475df46be56a8143990f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_4.png using Guid(23d8df0218475df46be56a8143990f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799bb0eba4e73b0fcd34a319e3db6036') in 0.010988 seconds 
-  Import took 0.016732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_3_Shadow.png
-  artifactKey: Guid(79791f7be235088459055342c21bc928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_3_Shadow.png using Guid(79791f7be235088459055342c21bc928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd350110c3c6140cb5337109e3119041e') in 0.014091 seconds 
-  Import took 0.017756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_10.mat
-  artifactKey: Guid(f3d08daef64da4e6ba945f8966429f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_10.mat using Guid(f3d08daef64da4e6ba945f8966429f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285be1c913c969bce48b63a525142662') in 0.012574 seconds 
-  Import took 0.016082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_12.png
-  artifactKey: Guid(969741e5ac68b264c98b3305e6546d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_12.png using Guid(969741e5ac68b264c98b3305e6546d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467e21312e5bf59b43057819dfcec9d6') in 0.013884 seconds 
-  Import took 0.017620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_6.mat
-  artifactKey: Guid(b76a35880218e4247b62e87726096cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_6.mat using Guid(b76a35880218e4247b62e87726096cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb2a266eb13415eae82a3be22cb5d50') in 0.008132 seconds 
-  Import took 0.011897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/VFX/CollectibleHealth.png
-  artifactKey: Guid(11c777a08257e944e98899b0c6011308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/VFX/CollectibleHealth.png using Guid(11c777a08257e944e98899b0c6011308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88177b6ef3431d43d17c11bb50858cdd') in 0.011058 seconds 
-  Import took 0.014824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/CharacterPortrait.png
-  artifactKey: Guid(0332b35b8fe3cf8458eb0558889493d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/CharacterPortrait.png using Guid(0332b35b8fe3cf8458eb0558889493d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444e1f48d6926222e0099fa1cbbbfdb6') in 0.010926 seconds 
-  Import took 0.014626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Characters/Enemy.png
-  artifactKey: Guid(19493c213807a23419dfb58b1efa4edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Characters/Enemy.png using Guid(19493c213807a23419dfb58b1efa4edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c16ff534c7b5b3eec19cb511a5d0a1') in 0.010730 seconds 
-  Import took 0.014240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_11.mat
-  artifactKey: Guid(6c84b3e0e86094d88ab459fd1b59aa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_11.mat using Guid(6c84b3e0e86094d88ab459fd1b59aa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d48b7d438f6e86e8f9009c8be5fc0d8') in 0.007547 seconds 
-  Import took 0.010977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_11.png
-  artifactKey: Guid(cabf70a81f6d2e24b8fe258e1f8f6fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_11.png using Guid(cabf70a81f6d2e24b8fe258e1f8f6fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81803737b6be27c1979b44432fb34a7f') in 0.013116 seconds 
-  Import took 0.016990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_6.png
-  artifactKey: Guid(82d5688758c3b77419f8685039b754e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_6.png using Guid(82d5688758c3b77419f8685039b754e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647025f4e7be9646025bfb9e666832c2') in 0.012257 seconds 
-  Import took 0.017062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1230.272728 seconds.
   path: Assets/Script/PlayerController.cs
   artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008a5a2909744031a3c5a181f0bef935') in 0.284773 seconds 
-  Import took 0.303289 seconds .
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e6e59d51d7bca0bad3f87fd5f8d625') in 0.417607 seconds 
+  Import took 0.425869 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 107.709261 seconds.
+  Time since last request: 2244.958087 seconds.
   path: Assets/Script/PlayerController.cs
   artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74115b73fbe049de724a1ccca2a53f42') in 0.003548 seconds 
-  Import took 0.007772 seconds .
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4931d82a9e9368f441049510c42739e2') in 0.006631 seconds 
+  Import took 0.010907 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.756308 seconds.
+  Time since last request: 59.309562 seconds.
   path: Assets/Script/PlayerController.cs
   artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e986485ca910f5d6e38342ce23ad94a') in 0.004036 seconds 
-  Import took 0.008261 seconds .
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6521b5513e1395b561d7e9cac56f18f5') in 0.001975 seconds 
+  Import took 0.006573 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 283.169683 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951e186ca17bc0a887cf43893562a416') in 0.001876 seconds 
+  Import took 0.005895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.385341 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbe6267c00f1945060a71bbe078f594') in 0.001972 seconds 
+  Import took 0.006163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.274020 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415be2af3f26a6da7a0a19103d3fd0fd') in 0.001714 seconds 
+  Import took 0.005706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.111192 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6926754b7fa7e5cc4e2f5a37eff8581a') in 0.001815 seconds 
+  Import took 0.005894 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (977ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.9 MB.
+System memory in use after: 234.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3014.
+Total: 3.070685 ms (FindLiveObjects: 0.211865 ms CreateObjectMapping: 0.098124 ms MarkObjects: 2.729913 ms  DeleteObjects: 0.030021 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154.363317 seconds.
+  path: Assets/Script/PlayerController.cs
+  artifactKey: Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerController.cs using Guid(1c531ce5e8a544a569577f6505869654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229b9d20c7710a3130a761779956ea15') in 0.007859 seconds 
+  Import took 0.012217 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1130ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.1 MB.
+System memory in use after: 234.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3016.
+Total: 2.824453 ms (FindLiveObjects: 0.183055 ms CreateObjectMapping: 0.086061 ms MarkObjects: 2.543099 ms  DeleteObjects: 0.011643 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006978 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1234ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 234.3 MB.
+System memory in use after: 234.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3018.
+Total: 3.172216 ms (FindLiveObjects: 0.202572 ms CreateObjectMapping: 0.142074 ms MarkObjects: 2.813755 ms  DeleteObjects: 0.013136 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
