@@ -345,6 +345,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c531ce5e8a544a569577f6505869654, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftAction:
+    m_Name: Left
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: a4be2754-cb62-4983-a33a-28ee6d6b53ef
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 1ba720b7-e9b9-42a8-81af-3383241bf5d9
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left
+      m_Flags: 0
+    m_Flags: 0
+  moveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: de072a66-47a0-49ec-8fac-12321ae45bdf
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &936511698
 GameObject:
   m_ObjectHideFlags: 0
