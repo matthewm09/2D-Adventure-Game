@@ -11,7 +11,10 @@ public class PlayerController : MonoBehaviour
     void Start()
     {   
         leftAction.Enable();
-      moveAction.Enable();
+        moveAction.Enable();
+
+        //QualitySettings.vSyncCount =0;
+       // Application.targetFrameRate = 120;
     }
 
     // Update is called once per frame
@@ -22,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log(move);
 
-        Vector2 position = (Vector2)transform.position + move * 0.1f;
+        Vector2 position = (Vector2)transform.position + move * 5f * Time.deltaTime;
         transform.position = position;
         
        
