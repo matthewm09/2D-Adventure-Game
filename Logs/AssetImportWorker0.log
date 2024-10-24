@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53346
+57486
 Successfully changed project path to: /Users/game12/2D Adventure Game
 /Users/game12/2D Adventure Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game12/2D Adventure Game/Assets
 GfxDevice: creating device client; threaded=0
-2024-10-23 08:46:57.366 Unity[9400:314373] iMac preferred device: AMD Radeon Pro 5300 (high power)
-2024-10-23 08:46:57.366 Unity[9400:314373] Metal devices available: 1
-2024-10-23 08:46:57.366 Unity[9400:314373] 0: AMD Radeon Pro 5300 (high power)
-2024-10-23 08:46:57.367 Unity[9400:314373] Using device AMD Radeon Pro 5300 (high power)
+2024-10-24 09:00:29.441 Unity[15585:607288] iMac preferred device: AMD Radeon Pro 5300 (high power)
+2024-10-24 09:00:29.441 Unity[15585:607288] Metal devices available: 1
+2024-10-24 09:00:29.441 Unity[15585:607288] 0: AMD Radeon Pro 5300 (high power)
+2024-10-24 09:00:29.441 Unity[15585:607288] Using device AMD Radeon Pro 5300 (high power)
 Initializing Metal device caps: AMD Radeon Pro 5300
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56585
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000624 seconds.
+Registered in 0.000486 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 43.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.646 seconds
+- Completed reload, in  0.622 seconds
 Domain Reload Profiling:
-	ReloadAssembly (646ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (622ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (487ms)
-			LoadAssemblies (88ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
+			RebuildScriptCaches (37ms)
 			SetupLoadedEditorAssemblies (186ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
+				RefreshPlugins (46ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003302 seconds.
+Registered in 0.004897 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 42.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.168 seconds
+- Completed reload, in  1.163 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1168ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (347ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (363ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.004296 seconds.
+Validating Project structure ... 0.003403 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.003404 seconds.
+Upgrading shader files ...0.003451 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,18 +125,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2537 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 229.7 MB.
 System memory in use after: 229.0 MB.
 
 Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 3011.
-Total: 3.301627 ms (FindLiveObjects: 0.194884 ms CreateObjectMapping: 0.095148 ms MarkObjects: 2.589125 ms  DeleteObjects: 0.421757 ms)
+Total: 3.252842 ms (FindLiveObjects: 0.194522 ms CreateObjectMapping: 0.090707 ms MarkObjects: 2.535803 ms  DeleteObjects: 0.431164 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,25 +150,344 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorGrassToBricksCorner.png
-  artifactKey: Guid(34ba951628518014d93ca783945dfeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorGrassToBricksCorner.png using Guid(34ba951628518014d93ca783945dfeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d38b99feb0ae0b7a21f7ddb8ff295da') in 0.893307 seconds 
-  Import took 0.902214 seconds .
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/VFX/ParticlesSprietAtlas.png
+  artifactKey: Guid(342bf27c213fb584da849037cc656766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/VFX/ParticlesSprietAtlas.png using Guid(342bf27c213fb584da849037cc656766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e7e9089f62237db6c974680785f1c0') in 0.778472 seconds 
+  Import took 0.786754 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 451.945245 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorGrassToBricksSquare.png
-  artifactKey: Guid(38637004000bfc04a8db17caf23bb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorGrassToBricksSquare.png using Guid(38637004000bfc04a8db17caf23bb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82b68553b19a768cb862dfe55b7d48d') in 0.012779 seconds 
-  Import took 0.017885 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_4.mat
+  artifactKey: Guid(56087c6d17e324913b74a8e94aad1046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_4.mat using Guid(56087c6d17e324913b74a8e94aad1046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3b9f977685fa8960b55d6a1ed6c26d') in 0.925701 seconds 
+  Import took 0.933357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.132553 seconds.
-  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorGrassToBricksSquare.png
-  artifactKey: Guid(38637004000bfc04a8db17caf23bb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorGrassToBricksSquare.png using Guid(38637004000bfc04a8db17caf23bb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b1b6591d15de2f949be261bdfb4a0a') in 0.032289 seconds 
-  Import took 0.036872 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/NPCPortrait.png
+  artifactKey: Guid(520dfc803cded8c43854cf4275f96485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/NPCPortrait.png using Guid(520dfc803cded8c43854cf4275f96485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5dde83c7eaec4a40a2891dd60688af') in 0.015215 seconds 
+  Import took 0.019663 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIDialogueBox.png
+  artifactKey: Guid(c4592e9bd029fcc45843314f2192f59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIDialogueBox.png using Guid(c4592e9bd029fcc45843314f2192f59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f34adbf8766c098d013be0f7b816a29') in 0.013833 seconds 
+  Import took 0.018283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/VFX/Projectile.png
+  artifactKey: Guid(5fcd4625b6e96384aaaa43e105ba7fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/VFX/Projectile.png using Guid(5fcd4625b6e96384aaaa43e105ba7fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bb322e4e4aaa60bb340fb544024150') in 0.013015 seconds 
+  Import took 0.016436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthFrame.png
+  artifactKey: Guid(e04807cd45105ec409b00463fe6ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthFrame.png using Guid(e04807cd45105ec409b00463fe6ab7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5b33d951dbef8b4e7fdd5d576cb785') in 0.013984 seconds 
+  Import took 0.017939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_3.mat
+  artifactKey: Guid(95c97adce648f42139e80343d666ebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/Materials/Decoration_3.mat using Guid(95c97adce648f42139e80343d666ebb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868ae381a3817e9bf10c32123f19cdf6') in 0.009005 seconds 
+  Import took 0.012490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthBar.png
+  artifactKey: Guid(be3322f3a1dbc6e44b25b63f3bb91e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/UI/UIHealthBar.png using Guid(be3322f3a1dbc6e44b25b63f3bb91e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd679b3af9a5b10869a8c1ad25293a5a') in 0.010901 seconds 
+  Import took 0.014411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.282451 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Animation/Ruby
+  artifactKey: Guid(e6921c83a984c4441b64ca349ba33cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Animation/Ruby using Guid(e6921c83a984c4441b64ca349ba33cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3a882febac8ff7e2e40b3c86f47864') in 0.001106 seconds 
+  Import took 0.005207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.895679 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterRoundCorners.png
+  artifactKey: Guid(cc24645db54e3d14f9b419c8fb8165cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterRoundCorners.png using Guid(cc24645db54e3d14f9b419c8fb8165cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf558c1624386f2588c6c16cf4504a3') in 0.018727 seconds 
+  Import took 0.023136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.316595 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners.png
+  artifactKey: Guid(a9b33d83ba376fc40aee1910beb42ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners.png using Guid(a9b33d83ba376fc40aee1910beb42ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efc7f7fca4455167f7f8a97d95a2870') in 0.010473 seconds 
+  Import took 0.014701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.486555 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterRoundCorners.png
+  artifactKey: Guid(cc24645db54e3d14f9b419c8fb8165cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterRoundCorners.png using Guid(cc24645db54e3d14f9b419c8fb8165cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6744142face5d4798ccb2578be620d') in 0.031589 seconds 
+  Import took 0.036312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.361895 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners.png
+  artifactKey: Guid(a9b33d83ba376fc40aee1910beb42ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners.png using Guid(a9b33d83ba376fc40aee1910beb42ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cd9adf72daf8fa7d51263eed647895') in 0.031621 seconds 
+  Import took 0.036474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.466841 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_0.asset
+  artifactKey: Guid(f060f8c60fe59483fab91246bee4949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_0.asset using Guid(f060f8c60fe59483fab91246bee4949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e569c860b67b163765e5f1a78c744aeb') in 0.412679 seconds 
+  Import took 0.421916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_5.asset
+  artifactKey: Guid(802664e0b49724d709037fb6a1380a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_5.asset using Guid(802664e0b49724d709037fb6a1380a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d14440be1b95e107dc4024530c2683b') in 0.009317 seconds 
+  Import took 0.013760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_8.asset
+  artifactKey: Guid(06f824e51df0c4c70877d2cf00b22066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_8.asset using Guid(06f824e51df0c4c70877d2cf00b22066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ea7bdf4978acc04fba4542672c5ba9') in 0.007717 seconds 
+  Import took 0.011140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_7.asset
+  artifactKey: Guid(74ddad9ed1fb5427d99cf4c85e994a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_7.asset using Guid(74ddad9ed1fb5427d99cf4c85e994a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5aa3214ab8d53992ba44c8a7990929') in 0.007440 seconds 
+  Import took 0.010954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_3.asset
+  artifactKey: Guid(9881e496380e942e2b5405b810e8df70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_3.asset using Guid(9881e496380e942e2b5405b810e8df70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb40059fcd54cbb77daf0550d4edcf1') in 0.007539 seconds 
+  Import took 0.010517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_2.asset
+  artifactKey: Guid(7e41a9b4c7cfd479aa32c5d95adbed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_2.asset using Guid(7e41a9b4c7cfd479aa32c5d95adbed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a34f5ea66567a3dd7e7e0e7fb2513e') in 0.007734 seconds 
+  Import took 0.011435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_4.asset
+  artifactKey: Guid(4829124df08d84f60b0418b559d5f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_4.asset using Guid(4829124df08d84f60b0418b559d5f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb11a12579136f6ca9bfd77c76d64c63') in 0.007627 seconds 
+  Import took 0.011050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_6.asset
+  artifactKey: Guid(7e5470074c09145128c6e22b6a6337ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_6.asset using Guid(7e5470074c09145128c6e22b6a6337ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e12e7b57418a2422a4f4d3da69bc50') in 0.008228 seconds 
+  Import took 0.011780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_1.asset
+  artifactKey: Guid(6eea59fa452fe4252b14f1ec500af6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ruby/Environment/FloorWaterSquareCorners_1.asset using Guid(6eea59fa452fe4252b14f1ec500af6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff643751223521ee8eede4dfc968b327') in 0.007975 seconds 
+  Import took 0.011475 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (167ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.9 MB.
+System memory in use after: 243.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3067.
+Total: 2.860348 ms (FindLiveObjects: 0.226163 ms CreateObjectMapping: 0.096870 ms MarkObjects: 2.515119 ms  DeleteObjects: 0.021541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.113 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1113ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (930ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.1 MB.
+System memory in use after: 243.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3069.
+Total: 2.990612 ms (FindLiveObjects: 0.234217 ms CreateObjectMapping: 0.163118 ms MarkObjects: 2.554702 ms  DeleteObjects: 0.038027 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1189ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2525 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.3 MB.
+System memory in use after: 243.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3071.
+Total: 2.842009 ms (FindLiveObjects: 0.185942 ms CreateObjectMapping: 0.082291 ms MarkObjects: 2.561074 ms  DeleteObjects: 0.012045 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
