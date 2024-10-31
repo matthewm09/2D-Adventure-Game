@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
 {
     
     public InputAction moveAction;
+    Rigidbody2D rigidbody2d;
+    Vector2 move;
+
     // Start is called before the first frame update
     void Start()
     {   
@@ -15,21 +18,26 @@ public class PlayerController : MonoBehaviour
 
         //QualitySettings.vSyncCount =0;
        // Application.targetFrameRate = 120;
+       rigidbody2d = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
         //Display the current a variable called position and add the move value from InputAction
-        Vector2 move = moveAction.ReadValue<Vector2>();
+         move = moveAction.ReadValue<Vector2>();
 
         Debug.Log(move);
 
-        Vector2 position = (Vector2)transform.position + move * 5f * Time.deltaTime;
-        transform.position = position;
+       
         
        
 
+    }
+    void FixedUpdate()
+    {
+         Vector2 position = (Vector2)transform.position + move * 5f * Time.deltaTime;
+        rigidbody2d.MovePosition(position);
     }
 } 
     
