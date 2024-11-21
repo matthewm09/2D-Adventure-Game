@@ -12,9 +12,16 @@ public class PlayerController : MonoBehaviour
     
     //Variables related to health system
     public int maxHealth = 5;
-    int currentHealth;
+    public int currentHealth = 3;
     public float speed = 3.0f;
-
+    
+    public int health
+    {
+      get 
+      {
+        return currentHealth;
+      }
+    }
     // Start is called before the first frame update
     void Start()
     {   
@@ -24,7 +31,7 @@ public class PlayerController : MonoBehaviour
         //QualitySettings.vSyncCount =0;
        // Application.targetFrameRate = 120;
        rigidbody2d = GetComponent<Rigidbody2D>();
-       currentHealth = maxHealth;
+       
     }
 
     // Update is called once per frame
@@ -35,10 +42,6 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log(move);
 
-       
-        
-       
-
     }
     
     void FixedUpdate()
@@ -48,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void ChangeHealth (int amount)
+    public void ChangeHealth (int amount)
     {
         currentHealth = Mathf.Clamp(currentHealth + amount,0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
