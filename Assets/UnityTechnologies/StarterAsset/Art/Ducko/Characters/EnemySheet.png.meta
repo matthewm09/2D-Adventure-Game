@@ -63,7 +63,7 @@ TextureImporter:
       213: 21300038
     second: MrClockworkEmpty
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -80,12 +80,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -124,8 +122,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
-  swizzle: 50462976
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -137,7 +133,6 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -150,7 +145,6 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -163,7 +157,6 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -746,36 +739,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      GolemBoilerSheet_0: -1338850296
-      GolemBoilerSheet_1: -1762464348
-      GolemBoilerSheet_10: 147021943
-      GolemBoilerSheet_11: -184236641
-      GolemBoilerSheet_12: -145476445
-      GolemBoilerSheet_13: 1433512188
-      GolemBoilerSheet_14: -743635758
-      GolemBoilerSheet_15: 1255941569
-      GolemBoilerSheet_16: 390058842
-      GolemBoilerSheet_17: 1866996182
-      GolemBoilerSheet_18: 1581615660
-      GolemBoilerSheet_19: -2112457510
-      GolemBoilerSheet_2: -1051306944
-      GolemBoilerSheet_20: 1484627788
-      GolemBoilerSheet_21: 577797062
-      GolemBoilerSheet_22: 1722305732
-      GolemBoilerSheet_23: 1240430735
-      GolemBoilerSheet_24: -233830377
-      GolemBoilerSheet_25: 286099929
-      GolemBoilerSheet_26: -958390211
-      GolemBoilerSheet_3: -1442120357
-      GolemBoilerSheet_4: -1048356953
-      GolemBoilerSheet_5: 1157053462
-      GolemBoilerSheet_6: -2032507910
-      GolemBoilerSheet_7: -1706280890
-      GolemBoilerSheet_8: -1621142600
-      GolemBoilerSheet_9: -494756775
-  mipmapLimitGroupName: 
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

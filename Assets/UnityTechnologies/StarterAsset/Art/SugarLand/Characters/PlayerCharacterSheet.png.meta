@@ -3,7 +3,7 @@ guid: f1c78d47fa0e77346b55eb8a4fa4ccf9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,12 +20,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -64,8 +62,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  swizzle: 50462976
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -77,7 +73,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +85,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,7 +97,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -623,33 +616,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      MarshalBackIdle1: -769168815
-      MarshalBackIdle2: 2096113261
-      MarshalFrontIdle1: 1820491436
-      MarshalFrontIdle2: 1312062930
-      MarshalHitBack: 109015488
-      MarshalHitFront: -477940866
-      MarshalHitSide: -766175034
-      MarshalPowerBack: -955965848
-      MarshalPowerFront: -1544066393
-      MarshalPowerSide: -1908292700
-      MarshalSideIdle1: 1318507809
-      MarshalSideIdle2: -846300689
-      MarshalWalkDown1: 1465616919
-      MarshalWalkDown2: 542997753
-      MarshalWalkDown3: -1991367363
-      MarshalWalkDown4: -965645575
-      MarshalWalkSide1: -1884940528
-      MarshalWalkSide2: 1040520080
-      MarshalWalkSide3: 923178667
-      MarshalWalkSide4: 19325745
-      MarshalWalkUp1: -259318255
-      MarshalWalkUp2: -863772193
-      MarshalWalkUp3: -232056101
-      MarshalWalkUp4: 140449120
-  mipmapLimitGroupName: 
+  spritePackingTag: 
   pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
