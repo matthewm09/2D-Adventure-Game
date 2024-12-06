@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
        rigidbody2d = GetComponent<Rigidbody2D>();
 
        
-       currentHealth = maxHealth;
+       currentHealth = 1;
        
     }
 
@@ -81,6 +81,8 @@ public class PlayerController : MonoBehaviour
       }
 
         currentHealth = Mathf.Clamp(currentHealth + amount,0, maxHealth);
+        UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+
         Debug.Log(currentHealth + "/" + maxHealth);
     }
 
