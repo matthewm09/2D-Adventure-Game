@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
        rigidbody2d = GetComponent<Rigidbody2D>();
 
        
-       currentHealth = 1;
+       currentHealth = 2;
        
     }
 
