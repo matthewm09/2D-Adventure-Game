@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour
     bool isInvincible;
     float damageCooldown; 
     
+    Animator animator;
+    Vector2 moveDirection = new Vector2(1,0); 
+
     public int health
     {
       get 
@@ -37,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
        
        currentHealth = 2;
+       animator = GetComponent<Animator>();
        
     }
 
@@ -56,7 +60,16 @@ public class PlayerController : MonoBehaviour
             isInvincible = false;
           }
         }
+        
+        if(!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y,0.0f))
+        {
+          moveDirection.Set(move.x, move.y);
+          moveDirection.Normalize();
+        }
 
+        animator.SetFloat("Look X", moveDirection.x);
+        animator.SetFloat("Look Y", moveDirection.y);
+        animator.SetFloat("Speed", move.magnitude);
     }
     
     void FixedUpdate()
