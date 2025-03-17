@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Background" style="background-image: url(&apos;/Assets/UnityTechnologies/StarterAsset/Art/Ducko/UI/UIDialogueBox.png&apos;); width: 100%; height: 100%; position: absolute;">
+        <ui:Label text="Who are you?" display-tooltip-when-elided="true" name="Label" style="color: rgb(0, 0, 0); -unity-font-style: bold; font-size: 40px; padding-left: 25px; padding-right: 25px; padding-top: 25px; padding-bottom: 25px; white-space: normal;" />
+    </ui:VisualElement>
+</ui:UXML>
