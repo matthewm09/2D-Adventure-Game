@@ -29,6 +29,9 @@ public class PlayerController : MonoBehaviour
     // // Variables related to Projectile
     public GameObject projectilePrefab;
 
+    AudioSource audioSource;
+    
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +40,7 @@ public class PlayerController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -131,7 +135,11 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
+    }
     
 }
     

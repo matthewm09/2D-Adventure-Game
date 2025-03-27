@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1012623238540669092}
   - component: {fileID: 1012623238540669091}
   - component: {fileID: 1012623238540669093}
+  - component: {fileID: 2453313779995453147}
   m_Layer: 0
   m_Name: CollectibleHealth
   m_TagString: Untagged
@@ -96,7 +97,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.024498701, y: -0.024499416}
+  m_Offset: {x: -0.024498701, y: -0.040275574}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -107,5 +108,18 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0111198, y: 0.9131241}
+  m_Size: {x: 1.0111198, y: 0.9762306}
   m_EdgeRadius: 0
+--- !u!114 &2453313779995453147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012623238540669090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff50702419e94aa89ab260a49c92ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectedClip: {fileID: 8300000, guid: 173a14cf06354c643b46b235f2a4f974, type: 3}
