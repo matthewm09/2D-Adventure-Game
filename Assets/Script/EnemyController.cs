@@ -12,6 +12,8 @@ public class EnemyController : MonoBehaviour
     float timer;
     int direction = 1;
     bool broken = true;
+    AudioSource audioSource;
+    public ParticleSystem smokeEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,7 @@ public class EnemyController : MonoBehaviour
 
         animator = GetComponent<Animator>();
         
+        audioSource = GetComponent<AudioSource>();
     }
    //arigato
     // FixedUpdate has the same call rate as the physics system
@@ -78,6 +81,7 @@ public class EnemyController : MonoBehaviour
    {
        broken = false;
        rigidbody2d.simulated = false;
+       smokeEffect.Stop();
    }
 
       

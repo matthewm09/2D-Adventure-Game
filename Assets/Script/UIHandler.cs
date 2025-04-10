@@ -27,7 +27,7 @@ public class UIHandler : MonoBehaviour
        uiDocument = GetComponent<UIDocument>();
 
        m_NonPlayerDialogue = uiDocument.rootVisualElement.Q<VisualElement>("NPCDialouge");
-       m_DialougeText = m_NonPlayerDialogue.Q<VisualElement>("Background").Q<Label>("Label");
+       m_DialougeText = m_NonPlayerDialogue.Q<VisualElement>("Background").Q<Label>("Label"); 
        if (m_DialougeText == null)
        {
         Debug.Log ("Could not find");
@@ -63,8 +63,6 @@ public class UIHandler : MonoBehaviour
     }
    m_NonPlayerDialogue.style.display = DisplayStyle.Flex;
    m_TimerDisplay = displayTime;
-   }
+   }   
 
-
- 
 }

@@ -5,8 +5,15 @@ using UnityEngine.InputSystem;
 
 public class Projectile : MonoBehaviour
 {
-   Rigidbody2D rigidbody2d;
 
+   Rigidbody2D rigidbody2d;
+   AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+    
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
@@ -39,5 +46,10 @@ public class Projectile : MonoBehaviour
         
         Destroy(gameObject);
     }
+
+    public void PlaySound(AudioClip clip)
+  {
+   audioSource.PlayOneShot(clip);
+  }
   
 }
